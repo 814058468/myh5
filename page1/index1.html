@@ -1,7 +1,7 @@
 
-<link rel="stylesheet" href="../css/title.css">
-<link rel="stylesheet" href="../css/dynamic.css">
-<link rel="stylesheet" href="../css/menu.css">
+<link rel="stylesheet" href="css/title.css">
+<link rel="stylesheet" href="css/dynamic.css">
+<link rel="stylesheet" href="css/menu.css">
 
 <script src="import-style/jquery.js"></script>
 <script src="import-style/rote.js"></script>
@@ -21,23 +21,23 @@
     <div id="top" class="">
         <div class="top-1" >
             <div class="top-gongneng" id="name" data-page="index5.html">
-                <div class="top-img" style=" background-image: url(../img/gongneng/1.png);">
+                <div class="top-img" style=" background-image: url(img/gongneng/1.png);">
                 </div>
                 <div class="top-word">四六级</div>
             </div>
 
             <div class="top-gongneng">
-                <div class="top-img" style=" background-image: url(../img/gongneng/2.png);"></div>
+                <div class="top-img" style=" background-image: url(img/gongneng/2.png);"></div>
                 <div class="top-word">考研</div>
             </div>
 
             <div class="top-gongneng">
-                <div class="top-img" style=" background-image: url(../img/gongneng/3.png);"></div>
+                <div class="top-img" style=" background-image: url(img/gongneng/3.png);"></div>
                 <div class="top-word">公考</div>
             </div>
 
             <div class="top-gongneng">
-                <div class="top-img" style=" background-image: url(../img/gongneng/4.png);">
+                <div class="top-img" style=" background-image: url(img/gongneng/4.png);">
                     <div class="qiang">抢</div>
                 </div>
                 <div class="top-word">雅思托福</div>
@@ -45,22 +45,22 @@
         </div>
         <div class="top-1">
             <div class="top-gongneng">
-                <div class="top-img" style=" background-image: url(../img/gongneng/5.png);"></div>
+                <div class="top-img" style=" background-image: url(img/gongneng/5.png);"></div>
                 <div class="top-word">专四专八</div>
             </div>
 
             <div class="top-gongneng">
-                <div class="top-img" style=" background-image: url(../img/gongneng/6.png);"></div>
+                <div class="top-img" style=" background-image: url(img/gongneng/6.png);"></div>
                 <div class="top-word">实用英语</div>
             </div>
 
             <div class="top-gongneng">
-                <div class="top-img" style=" background-image: url(../img/gongneng/7.png);"></div>
+                <div class="top-img" style=" background-image: url(img/gongneng/7.png);"></div>
                 <div class="top-word">考研vip</div>
             </div>
 
             <div class="top-gongneng">
-                <div class="top-img" style=" background-image: url(../img/gongneng/8.png);"></div>
+                <div class="top-img" style=" background-image: url(img/gongneng/8.png);"></div>
                 <div class="top-word">公开课</div>
             </div>
         </div>
@@ -167,5 +167,12 @@
 </div>
 <!--dynamic-end-->
 
-<script src="import-style/jquery.js"></script>
-<script src="import-style/rote.js"></script>
+
+<script>$(function(){
+    
+    }
+    $("#name").click(function() {
+        $(".dynamic").load($(this).date("page1/index5"))
+    })
+</script>
+
