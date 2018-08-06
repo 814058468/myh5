@@ -1,0 +1,26 @@
+#download{
+    flex: 1;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    background-color: #F7F5EC;
+}
+
+#download-img{
+
+    height: 80px;
+    width: 80px;
+    background-image: url(../img/down.jpg);
+
+}
+
+#download-word{
+
+    font-size: 14px;
+
+
+
+}

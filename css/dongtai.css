@@ -1,0 +1,227 @@
+#dongtai{
+
+    flex: 1;
+    background-color: rgb(32,24,43);
+    width: 100%;
+    overflow-y: scroll;
+
+}
+
+#dancihead{
+
+    height: 100px;
+    width: 100%;
+
+    background-color: rgb(32,24,43);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#dancihead-img{
+
+    margin-left: 20px;
+
+    height: 100px;
+    width: 100px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../img/bid/123.jpg);
+
+}
+
+#dancihead-else{
+
+    height: 100px;
+    flex: 1;
+
+    font-size: 14px;
+
+
+}
+
+#dancihead-else-top{
+
+    height: 48px;
+    align-items: center;
+
+    display: flex;
+    justify-content: space-around;
+    color: rgb(136,155,177);
+
+}
+
+
+#dancihead-else-center{
+
+    height: 1px;
+    width: 90%;
+    background-color: rgb(136,155,177);
+    margin: auto ;
+
+}
+
+#dancihead-else-bottom{
+
+    height: 48px;
+    align-items: center;
+
+    display: flex;
+    justify-content: space-around;
+    color: rgb(136,155,177);
+
+}
+
+/*dancihead end*/
+
+
+/*duanwei start*/
+
+#duanwei{
+
+    margin: auto ;
+
+    height: 80px;
+
+    width: 95%;
+    background-color: rgb(36,30,50);
+
+    border-radius: 30px 30px 30px 30px;
+
+}
+
+.duanwei-word{
+
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    color: rgb(55,124,255);
+    padding-left:20px;
+
+    padding-right: 20px;
+
+    font-size: 12px;
+    align-items: center;
+
+
+}
+
+.duanwei-img{
+
+    height: 30px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    background-image: url(../img/bid/duanwei.png);
+
+}
+
+/*duanwei end*/
+
+
+.pipei{
+
+    height: 90px;
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+
+
+}
+
+.pipei1{
+
+    width: 150px;
+    height: 100px;
+
+    text-align: center;
+    line-height: 100px;
+
+    font-size: 18px;
+    font-weight: 600;
+
+    border-radius: 50px 50px 50px 50px;
+
+
+}
+
+
+#words{
+
+    width: 100%;
+    height: 30px;
+
+    text-align: center;
+    margin-top: 40px;
+    color: rgb(245,210,32);
+
+}
+
+#words2{
+
+    width: 100%;
+    height: 30px;
+
+    font-size: 12px;
+
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(124,139,161);
+
+}
+
+.paihang{
+
+    margin: auto;
+    height: 90px;
+    width: 95%;
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgb(41,34,57);
+
+    display: flex;
+    justify-content: space-around;
+
+    align-items: center;
+
+}
+
+.paihang-img{
+    height: 90px;
+    width: 90px;
+
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../img/bid/win.jpg);
+
+}
+
+.paihang-word{
+
+    margin: 20px;
+    color: rgb(138,159,182);
+
+    flex: 1;
+
+
+}
+
+.paihang-num{
+
+    height: 90px;
+    width: 90px;
+
+    font-size: 26px;
+    color: rgb(118,28,255);
+
+
+
+}

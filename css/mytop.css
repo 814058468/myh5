@@ -1,0 +1,48 @@
+#mytop  {
+
+    width: 100%;
+
+    height: 200px;
+
+    flex: 1;
+    background-color: rgb(245,210,32);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column ;
+
+
+}
+
+/*#FFDE3E*/
+#mytop-head{
+
+    height: 60px;
+    width: 60px;
+
+    background-color: white;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    border-radius: 50%;
+    background-image: url(../img/tubiao.png);
+
+    border: 5px solid whitesmoke;
+
+}
+
+#mytop-id{
+
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+#mytop-num{
+
+    margin-top: 10px;
+    font-size: 14px;
+}

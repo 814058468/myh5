@@ -1,0 +1,22 @@
+#container{
+    position: fixed;
+
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+.dynamic{
+    width: 100%;
+    flex: 1;
+    background-color: #F7F5EC;
+
+    display: flex;
+    flex-flow: column;
+
+    /*overflow-y: scroll;*/
+
+}

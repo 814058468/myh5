@@ -1,0 +1,136 @@
+#kind{
+
+    height: 30px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border: 1px solid #BABABA;
+}
+
+.kind-all{
+    flex: 1;
+    /*opacity: .5;*/
+    position: relative;
+}
+
+#kind-left{
+
+    text-align: left;
+    padding-left: 20px;
+
+}
+
+#kindc{
+    /*font-size: 14px;*/
+}
+
+#kind-center{
+
+
+}
+
+#kindc1{
+    text-align: center;
+}
+
+#kind-right{
+
+    padding-right: 20px;
+
+}
+
+#kindc2{
+    text-align: right;
+}
+
+/**********kind1 start***********/
+#kind1{
+    width: 100%;
+    max-height: 400px;
+    background-color: white;
+    position: absolute;
+    overflow-y: scroll;
+    top: 20px;
+
+    /*display: flex;*/
+
+    flex-flow: column;
+    z-index: 5;
+    display: none;
+
+}
+
+.kinds1{
+
+    height: 30px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /*justify-content: flex-start;*/
+}
+
+.kinds1-word{
+
+    flex: 1;
+    font-size: 16px ;
+}
+.duigou{
+
+    width: 30px;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../img/gongneng/duigou.png);
+
+
+}
+
+.kinds1 div{
+    width: 30px;
+}
+
+.choose{
+    color: #FFD511;
+}
+
+
+#kind2{
+    width: 100%;
+    max-height: 400px;
+    background-color: white;
+    position: absolute;
+    overflow-y: scroll;
+    top: 20px;
+
+    /*display: flex;*/
+
+    flex-flow: column;
+    z-index: 5;
+    display: none;
+
+}
+
+#kind3{
+
+    margin-right: 80px;
+    width: 100%;
+    max-height: 400px;
+    background-color: white;
+    position: absolute;
+    overflow-y: scroll;
+    top: 20px;
+
+    /*display: flex;*/
+    /*justify-content: left;*/
+
+    flex-flow: column;
+    z-index: 5;
+    display: none;
+
+}
+/**********kind1 end*************/
+
+

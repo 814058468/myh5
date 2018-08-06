@@ -1,0 +1,170 @@
+
+
+#singal{
+    width: 100%;
+    height: 32px;
+    background-color: gray;
+    color: white;
+
+    display: flex;
+    font-weight: 100;
+
+    font-size: 12px;
+    justify-content: space-between;
+
+}
+#signal-left{
+
+    display: flex;
+    flex: 1;
+
+    justify-content:  flex-start;
+    align-items: center;
+}
+
+#signal-left div {
+
+    margin-left: 4px;
+
+}
+
+#signal-area{
+
+    height: 16px;
+    width: 30px;
+
+    display: flex;
+    align-items: flex-end;
+
+
+}
+
+#signal-area div {
+    width: 4px;
+    margin-left: 3px;
+    border-radius: 1px;
+}
+
+#signal-area div:nth-child(1){
+
+    height: 5px;
+
+}
+#signal-area div:nth-child(2){
+
+    height: 8px;
+
+}
+#signal-area div:nth-child(3){
+
+    height: 12px;
+
+}
+#signal-area div:nth-child(4){
+
+    height: 15px;
+
+}
+.signal-ok{
+    background-color: white;
+}
+
+.signal-loss{
+    background-color: gray;
+}
+
+#operator{
+
+}
+
+#xg{
+
+}
+
+#signal-center{
+    width: 50px;
+    height: 32px;
+
+
+}
+
+
+#signal-right{
+
+    flex: 1;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+/*battery-start*/
+#battery{
+
+    width: 40px;
+    height: 18px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#baifenbi{
+    width: 40px;
+    height: 18px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#battery-body{
+
+    height: 12px;
+    width: 32px;
+    border: 1px solid whitesmoke;
+    border-radius: 1px;
+
+}
+#battery-header{
+
+    height: 6px;
+    width: 2px;
+    border-radius: 0px 1px 1px 0px;
+    background-color: whitesmoke;
+
+}
+#battery-core{
+
+    width: 10px;
+    height: 10px;
+    background-color: yellow;
+    margin: 1px;
+
+}
+/*battery-end*/
+
+@keyframes charge {
+    0% {
+        width: 1px;
+        background-color: crimson;
+    }
+    20% {
+        width: 6px;
+        background-color: yellow;
+    }
+    80% {
+        width: 24px;
+        background-color: lawngreen;
+    }
+    100% {
+        width: 30px;
+        background-color: lawngreen;
+    }
+}
+
+.charging {
+    animation: charge 6s linear infinite;
+
+}

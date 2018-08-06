@@ -1,0 +1,183 @@
+
+
+.dynamic{
+    width: 100%;
+    flex: 1;
+    background-color: #F7F5EC;
+
+    overflow-y: scroll;
+
+}
+
+#top {
+
+    height: 110px;
+    width: 100%;
+    border: 1px solid #BABABA;
+
+
+}
+
+.top-1 {
+
+
+    height: 55px;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    align-items: center;
+    background-color: white;
+
+}
+
+.top-gongneng{
+
+    height: 50px;
+    width: 60px;
+
+}
+.top-img {
+
+    margin: auto;
+
+    height: 35px;
+    width: 35px;
+
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+
+.qiang{
+    height: 18px;
+    width: 18px;
+    background-color: crimson;
+    border-radius: 50%;
+    color: #F7F5EC;
+    font-size: 1px;
+    position: absolute;
+    top: 2px;
+    right: 1px;
+    text-align: center;
+}
+
+.top-word{
+
+    text-align: center;
+    width: 100%;
+    height: 15px;
+    font-size: 12px;
+    font-weight: 600;
+
+}
+
+.black{
+
+    margin: 5px auto;
+
+    height: 200px;
+    width: 98%;
+
+    border-radius: 5px 5px 5px 5px ;
+    background-color: white;
+
+}
+
+.black-top{
+    height: 150px;
+    margin-top: 10px;
+    display: flex;
+
+}
+
+.black-top-intro{
+    flex: 1;
+    margin: 20px 0px 0px 10px;
+    /*margin-left: 10px;*/
+    display: flex;
+    flex-flow: column nowrap;
+    /*justify-content: center;*/
+    justify-content: space-around;
+
+}
+.black-top-img{
+
+    width: 100px;
+    background-image: url(../img/bid/dectu.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.intro{
+    /*margin-top: 20px;*/
+    font-weight: 600;
+}
+
+.intro-date{
+    font-size: 12px;
+    margin-top: 10px;
+
+}
+
+.intro-name{
+
+    margin-top: 10px;
+
+    display: flex;
+}
+
+.intro-name-y{
+
+    padding: 5px 10px 5px 10px;
+
+    background-color: #FFDE3E;
+    border-radius: 20px 25px 0px 20px;
+
+    font-weight: 600;
+    font-family: 微软雅黑;
+    font-size: 12px;
+
+    margin-right: 10px;
+
+
+}
+
+/*顶层结束*/
+
+/*bottom start*/
+
+.black-bottom{
+
+    width: 100%;
+    height: 40px;
+
+    display: flex;
+    /*background-color: #D5D6D6;*/
+    background-color: #F7F5EC;
+    align-items: center;
+
+}
+
+.saleintro{
+    flex: 1;
+    line-height: 40px;
+    text-indent: 10px;
+
+    opacity: .8;
+
+    font-size: 14px;
+
+
+}
+
+.prise{
+    width: 60px;
+    text-align: center;
+    font-size: 20px;
+}
+

@@ -1,0 +1,192 @@
+#course{
+
+    width: 100%;
+    flex: 1;
+    background-color:#F7F5EC;
+
+    overflow-y: scroll;
+
+
+}
+
+.course-black{
+
+    margin: 5px auto;
+
+    height: 200px;
+    width: 100%;
+
+    /*border-radius: 5px 5px 5px 5px ;*/
+    background-color: white;
+
+    /*display: flex;*/
+    /*justify-content: flex-end;*/
+    /*flex-flow: column nowrap;*/
+    overflow: hidden;
+    /*border: 1px solid #BABABA;*/
+
+}
+
+.posi{
+    position: relative;
+    height: 5px;
+    margin-right: 0px;
+    width: 100%;
+
+}
+
+.black-target{
+
+    height: 20px;
+    width: 80px;
+    background-color: rgb(245,210,32);
+    text-align: center;
+    line-height: 20px;
+
+    color: white;
+    font-size: 12px;
+
+    transform: rotate(45deg);
+    position: absolute;
+    right: -18px;
+    top: 12px;
+
+}
+
+.black-content{
+
+    height: 180px;
+    width: 100%;
+    /*background-color: #212121;*/
+    display: flex;
+    justify-content: center;
+    /*align-items: center;*/
+    position: relative;
+
+}
+
+.black-content-target{
+
+    height: 150px;
+    width: 150px;
+
+    position: absolute;
+
+    border-radius: 50%;
+    background-color: #BABABA;
+    opacity: .5;
+
+    line-height: 150px;
+    text-align: center;
+
+    font-size: 20px;
+    font-weight: 600;
+
+    transform: rotate(-30deg);
+
+
+
+}
+
+.course-black-image{
+
+    flex:   1;
+
+    /*width: 100px;*/
+    /*background-color: whitesmoke;*/
+    /*background-image: url(../img/bid/people.png);*/
+    background-position: center;
+    background-size: contain ;
+    background-repeat: no-repeat;
+    padding-left: 10px ;
+    text-align: center;
+
+
+
+}
+
+.course-black-word{
+
+    flex: 2;
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 20px 0px 0px 10px;
+    /*justify-content: center;*/
+    justify-content: space-around;
+
+
+}
+
+.word-head{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.word-intro{
+
+    font-size: 12px;
+    opacity: .8;
+
+
+}
+
+.word-now{
+
+    font-size: 12px;
+    opacity: .8;
+
+
+}
+
+.word-jindutiao{
+    height: 5px;
+    width: 90%;
+    background-color: #BABABA;
+
+}
+
+.jindutiao-line{
+
+    height: 100%;
+
+    /*width: 50%;*/
+    background-color: goldenrod;
+
+}
+
+@keyframes charge {
+
+    0%{
+        background: #BABABA;
+    }
+
+    25%{
+
+        width: 25%;
+        background-color: goldenrod;
+    }
+
+    50%{
+
+        width: 50%;
+        background-color: goldenrod;
+    }
+
+    75%{
+
+        width: 75%;
+        background-color: goldenrod;
+    }
+
+    100%{
+
+        width: 100%;
+        background-color: goldenrod;
+
+    }
+}
+
+.charging1{
+
+    animation: charge 10s linear;
+}

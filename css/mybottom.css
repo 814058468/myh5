@@ -1,0 +1,67 @@
+#mybottom  {
+
+    flex: 1;
+    background-color: rgb(247,247,247);
+
+    width: 100%;
+    overflow: scroll;
+    /*padding-top: 10px;*/
+
+
+}
+
+.mybottom-border{
+    margin-top: 10px;
+}
+
+.mybottom-black{
+    height: 35px;
+    width: 100%;
+   border: 1px solid #BABABA;
+
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.mybottom-balck-img{
+
+    background-size: cover;
+
+    background-position: center;
+
+    width: 30px;
+    margin-left: 5px;
+    height: 100%;
+
+}
+
+.mybottom-black-name{
+
+    flex: 1;
+    font-size: 14px;
+    padding-left: 10px;
+
+
+}
+
+.mybottom-black-word{
+
+    padding-right: 20px;
+
+}
+
+.mybottom-black-jiantoou{
+
+    width: 30px;
+    height: 100%;
+    line-height: 35px;
+    opacity: 0.5;
+
+
+
+
+}

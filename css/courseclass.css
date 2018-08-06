@@ -1,0 +1,32 @@
+.courseclass{
+
+    height: 30px;
+    width: 100%;
+
+    display: flex;
+    flex-flow: row nowrap;
+
+}
+
+.courseclass-left{
+    width: 10px;
+    height: 30px;
+}
+
+.courseclass-center{
+
+    flex: 1;
+    overflow-x: scroll;
+    white-space:nowrap;
+}
+
+.courseclass-kind{
+
+    width: 60px;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+
+
+}

@@ -1,0 +1,35 @@
+#title{
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#title-tubiao{
+
+    height: 35px;
+    width: 35px;
+    background-image: url(../img/tubiao.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+#title-name{
+
+    display: flex;
+
+    height: 35px;
+    width: 40px;
+    font-size: 20px;
+
+    justify-content: center;
+    align-items: center;
+
+
+}
